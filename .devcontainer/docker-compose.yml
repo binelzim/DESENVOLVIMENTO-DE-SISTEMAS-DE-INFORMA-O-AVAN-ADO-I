@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # Serviço da Aplicação (onde seu código vai rodar)
+  app:
+    # Imagem base da Microsoft para desenvolvimento .NET 8
+    image: mcr.microsoft.com/devcontainers/dotnet:8.0
+    
+    # Comandos para manter o contêiner rodando
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+    # Mapeia a pasta do seu projeto para dentro do contêiner
+    volumes:
+      - ..:/workspaces:cached
+    
+    # Depende do serviço 'db' estar pronto
+    depends_on:
+      - db
+
+  # Serviço do Banco de Dados (SQL Server)
+  db:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    environment:
+      # Você DEVE aceitar o EULA
+      ACCEPT_EULA: "Y"
+      # Defina uma senha forte para o usuário 'sa' (System Admin)
+      MSSQL_SA_PASSWORD: "SuaSenhaForte!123"
+    ports:
+      # Expõe a porta 1433 para que sua app possa acessá-la
+      - "1433:1433"

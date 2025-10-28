@@ -1,0 +1,9 @@
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.csproj.AssemblyReference.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.AssemblyInfoInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.AssemblyInfo.cs
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.csproj.CoreCompileInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.RazorAssemblyInfo.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.RazorAssemblyInfo.cs
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Web/obj/Debug/net8.0/Universidade.Web.sourcelink.json

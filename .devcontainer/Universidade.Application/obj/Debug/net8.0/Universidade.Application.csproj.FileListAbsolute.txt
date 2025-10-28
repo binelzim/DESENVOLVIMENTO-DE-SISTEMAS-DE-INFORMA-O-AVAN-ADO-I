@@ -1,0 +1,16 @@
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/bin/Debug/net8.0/Universidade.Application.deps.json
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/bin/Debug/net8.0/Universidade.Application.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/bin/Debug/net8.0/Universidade.Application.pdb
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/bin/Debug/net8.0/Universidade.Domain.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/bin/Debug/net8.0/Universidade.Domain.pdb
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.csproj.AssemblyReference.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.AssemblyInfoInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.AssemblyInfo.cs
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.csproj.CoreCompileInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.sourcelink.json
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universi.50E83972.Up2Date
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/refint/Universidade.Application.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/Universidade.Application.pdb
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/obj/Debug/net8.0/ref/Universidade.Application.dll

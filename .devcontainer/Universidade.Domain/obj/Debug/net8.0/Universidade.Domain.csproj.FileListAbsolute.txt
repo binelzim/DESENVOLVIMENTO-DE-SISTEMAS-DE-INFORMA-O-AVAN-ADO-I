@@ -1,0 +1,12 @@
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/bin/Debug/net8.0/Universidade.Domain.deps.json
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/bin/Debug/net8.0/Universidade.Domain.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/bin/Debug/net8.0/Universidade.Domain.pdb
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.AssemblyInfoInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.AssemblyInfo.cs
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.csproj.CoreCompileInputs.cache
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.sourcelink.json
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/refint/Universidade.Domain.dll
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/Universidade.Domain.pdb
+/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Domain/obj/Debug/net8.0/ref/Universidade.Domain.dll

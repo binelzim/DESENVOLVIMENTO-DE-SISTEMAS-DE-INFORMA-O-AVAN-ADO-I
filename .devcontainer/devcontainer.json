@@ -1,0 +1,26 @@
+{
+  "name": ".NET e SQL Server",
+  "dockerComposeFile": "docker-compose.yml",
+
+  // Diz ao Codespaces para usar o serviço 'app' do compose-file
+  "service": "app",
+
+  // Onde o VS Code deve abrir (a raiz do projeto)
+  "workspaceFolder": "/workspaces",
+
+  // Instala extensões essenciais automaticamente
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-mssql.mssql",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "cweijan.vscode-postgresql-client2"
+      ]
+    }
+  },
+
+  // Garante que o .NET EF Core tools esteja disponível
+  "postCreateCommand": "dotnet tool install --global dotnet-ef"
+}
