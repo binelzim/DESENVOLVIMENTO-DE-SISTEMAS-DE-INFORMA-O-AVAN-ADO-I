@@ -4148,7 +4148,7 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4156,11 +4156,11 @@
       "projectUniqueName": "/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Infrastructure/Universidade.Infrastructure.csproj",
       "projectName": "Universidade.Infrastructure",
       "projectPath": "/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Infrastructure/Universidade.Infrastructure.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
+      "packagesPath": "/home/vscode/.nuget/packages/",
       "outputPath": "/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4229,7 +4229,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
