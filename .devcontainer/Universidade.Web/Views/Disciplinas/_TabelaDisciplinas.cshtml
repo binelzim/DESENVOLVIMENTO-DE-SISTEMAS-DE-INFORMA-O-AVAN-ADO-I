@@ -1,0 +1,19 @@
+@model IEnumerable<Universidade.Application.ViewModels.DisciplinaViewModel>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+        <td>@Html.DisplayFor(modelItem => item.CargaHoraria) h</td>
+        <td>@Html.DisplayFor(modelItem => item.CursoNome)</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+        </td>
+    </tr>
+}
+@if (!Model.Any())
+{
+    <tr>
+        <td colspan="4" class="text-center text-muted">Nenhuma disciplina encontrada.</td>
+    </tr>
+}

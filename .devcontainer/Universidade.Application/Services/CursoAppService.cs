@@ -1,90 +1,52 @@
+using Mapster; // <-- Importante: Namespace do Mapster
 using Universidade.Application.Interfaces;
 using Universidade.Application.ViewModels;
-using Universidade.Domain.Entities; // <-- Precisa da Entidade do Domínio
-using Universidade.Domain.Interfaces; // <-- Precisa da Interface do Domínio
+using Universidade.Domain.Entities;
+using Universidade.Domain.Interfaces;
 
 namespace Universidade.Application.Services
 {
     public class CursoAppService : ICursoAppService
     {
-        // 1. Dependência da Interface do Domínio (Repositório)
-        // Esta classe NÃO sabe como o banco de dados funciona.
-        // Ela apenas conhece o contrato ICursoRepository.
         private readonly ICursoRepository _cursoRepository;
 
-        // 2. Injeção de Dependência (DI)
-        // O sistema (no Program.cs) será responsável por "injetar"
-        // uma implementação concreta de ICursoRepository aqui.
         public CursoAppService(ICursoRepository cursoRepository)
         {
             _cursoRepository = cursoRepository;
         }
 
-        // --- Implementação dos Métodos ---
-
         public async Task Adicionar(CursoViewModel cursoViewModel)
         {
-            // 3. Mapeamento (ViewModel -> Entidade)
-            // Converte os dados da tela para uma entidade de negócio.
-            // (Em projetos reais, usamos uma ferramenta como o AutoMapper para isso)
-            var curso = new Curso
-            {
-                Nome = cursoViewModel.Nome,
-                Descricao = cursoViewModel.Descricao,
-                CargaHoraria = cursoViewModel.CargaHoraria
-            };
-
-            // 4. Chama o Repositório do Domínio
+            // O Mapster faz a conversão automática baseada nos nomes das propriedades
+            var curso = cursoViewModel.Adapt<Curso>();
+            
             await _cursoRepository.AddAsync(curso);
-            await _cursoRepository.SaveChangesAsync(); // Confirma a transação
+            await _cursoRepository.SaveChangesAsync();
         }
 
         public async Task Atualizar(CursoViewModel cursoViewModel)
         {
-            // Busca a entidade original no banco
-            var curso = await _cursoRepository.GetByIdAsync(cursoViewModel.Id);
+            // Mapeia os dados do ViewModel para a Entidade
+            var curso = cursoViewModel.Adapt<Curso>();
 
-            if (curso != null)
-            {
-                // Mapeia as mudanças do ViewModel para a Entidade
-                curso.Nome = cursoViewModel.Nome;
-                curso.Descricao = cursoViewModel.Descricao;
-                curso.CargaHoraria = cursoViewModel.CargaHoraria;
-
-                // 4. Chama o Repositório do Domínio
-                _cursoRepository.Update(curso);
-                await _cursoRepository.SaveChangesAsync(); // Confirma a transação
-            }
+            // O EF Core precisa saber que este objeto existe. 
+            // Como estamos passando um objeto novo com o ID preenchido, o Update funciona.
+            _cursoRepository.Update(curso);
+            await _cursoRepository.SaveChangesAsync();
         }
 
         public async Task<CursoViewModel> ObterPorId(int id)
         {
             var curso = await _cursoRepository.GetByIdAsync(id);
-            if (curso == null) return null;
-
-            // 3. Mapeamento (Entidade -> ViewModel)
-            // Converte a entidade do banco para um ViewModel que a tela entende.
-            return new CursoViewModel
-            {
-                Id = curso.Id,
-                Nome = curso.Nome,
-                Descricao = curso.Descricao,
-                CargaHoraria = curso.CargaHoraria
-            };
+            // Converte de Entidade -> ViewModel
+            return curso.Adapt<CursoViewModel>();
         }
 
         public async Task<IEnumerable<CursoViewModel>> ObterTodos()
         {
             var cursos = await _cursoRepository.GetAllAsync();
-
-            // 3. Mapeamento (Lista de Entidades -> Lista de ViewModels)
-            return cursos.Select(curso => new CursoViewModel
-            {
-                Id = curso.Id,
-                Nome = curso.Nome,
-                Descricao = curso.Descricao,
-                CargaHoraria = curso.CargaHoraria
-            });
+            // Converte Lista de Entidades -> Lista de ViewModels
+            return cursos.Adapt<IEnumerable<CursoViewModel>>();
         }
 
         public async Task Remover(int id)
@@ -92,9 +54,8 @@ namespace Universidade.Application.Services
             var curso = await _cursoRepository.GetByIdAsync(id);
             if (curso != null)
             {
-                // 4. Chama o Repositório do Domínio
                 _cursoRepository.Delete(curso);
-                await _cursoRepository.SaveChangesAsync(); // Confirma a transação
+                await _cursoRepository.SaveChangesAsync();
             }
         }
     }

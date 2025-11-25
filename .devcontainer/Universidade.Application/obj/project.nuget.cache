@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bKenha/M1gU=",
+  "dgSpecHash": "keg5Qyke7O0=",
   "success": true,
   "projectFilePath": "/workspaces/DESENVOLVIMENTO-DE-SISTEMAS-DE-INFORMA-O-AVAN-ADO-I/.devcontainer/Universidade.Application/Universidade.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
